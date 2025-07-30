@@ -2,7 +2,7 @@ import os
 import json
 
 
-THEME_FILE = "theme/theme.json"
+THEME_FILE = os.path.join(os.path.dirname(__file__), "theme.json")
 DARK = "dark"
 LIGHT = "light"
 

@@ -1,8 +1,11 @@
+import os
 import tkinter as tk
 from theme.theme import ToolboxTheme
 from frames.module_creator import ModuleCreatorFrame
 from frames.home import HomeFrame
 
+
+APP_ICON_PATH: str = os.path.join(os.path.dirname(__file__), "../assets/icon.ico")
 
 SECTIONS = {
     'Odoo': {
@@ -24,7 +27,7 @@ class ToolboxApp(tk.Tk):
         self.geometry("800x500")
         self.config(cursor="plus")
         self.minsize(600, 400)
-        self.iconbitmap("assets/icon.ico")
+        self.iconbitmap(APP_ICON_PATH)
 
         # -- THEME -- #
         self.theme = theme

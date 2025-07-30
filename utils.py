@@ -10,7 +10,7 @@ from templates.py_templates import MANIFEST_TEMPLATE
 from templates.html_templates import INDEX_TEMPLATE
 
 
-HUROOS_ICON_PATH: str = "assets/huroos_logo.png"
+HUROOS_ICON_PATH: str = os.path.join(os.path.dirname(__file__), "assets/huroos_logo.png")
 
 
 def create_odoo_module(technical_name: str, module_name: str, path: str, module_description: str = "", module_category: str = "Tools", powered_by: str = "Great developer") -> None:
