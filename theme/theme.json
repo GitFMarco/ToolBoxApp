@@ -1,0 +1,19 @@
+{
+    "mode": {
+        "dark": {
+            "text": "#e5f3ff",
+            "background": "#00050a",
+            "primary": "#0479e7",
+            "secondary": "#830276",
+            "accent": "#bb0239"
+        },
+        "light": {
+            "text": "#000e1a",
+            "background": "#f5faff",
+            "primary": "#188dfb",
+            "secondary": "#fd7cf0",
+            "accent": "#fd447c"
+        }
+    },
+    "font": "Consolas"
+}
